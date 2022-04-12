@@ -10,7 +10,7 @@
     "strict": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
-    "paths": {
+    "paths": { // import ../../../../button.js => import A from @src/button.js
       "@hooks/*": ["hooks/*"],
       "@components/*": ["components/*"],
       "@layouts/*": ["layouts/*"],
